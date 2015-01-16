@@ -1,10 +1,3 @@
-Feature: Web pages
-
-  Scenario: Homepage
-    Given I am on homepage
-     Then the response status code should be 200
-     Then I should see "This is the SCHOOL REGISTER app..."
-     
 Feature: I would like to log in to the system
 
   Scenario: Log in as admin
